@@ -1,0 +1,103 @@
+body {
+    background-image: url(../images/background-image.jpg);
+    background-size: initial;
+}
+
+/* Comienzo header */
+
+#header {
+    display:flex;
+    justify-content: center;
+    width:60%;
+    margin: 0 auto;
+    height: 130px; 
+    border:1px red solid;
+    
+}
+
+.logo {
+    float: left;
+    border:1px red solid;
+}
+
+.nav {
+    margin-top:40px;
+    float: right;
+    font-weight:bold;  
+    border:1px red solid;
+}
+
+.dec {
+    list-style: none;
+}
+
+.dec li {
+    display: inline-block;
+    margin: 5px;
+    border:1px red solid;
+     
+}
+
+.dec li a {
+    text-decoration: none;
+    color: red; 
+}
+
+.dec li a:hover {
+    color: black;
+}
+
+.dec li a:active {
+    color: black;
+}
+
+/* Fin de header */
+
+/* Comienzo main */
+
+#main {
+
+}
+
+.pos1 {
+    background-color: rgba(255,0,0,0.5);
+    border: 2px black solid;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+.pos2 {
+    float: right;
+    background-color: rgba(255,0,0,0.5);
+    border: 2px black solid;
+    display: inline-block;
+    width: 25%;   
+    margin-top: 25%;
+    margin-right: 20%;
+}
+
+.esp-text {
+    margin:15px;
+    text-align: justify;
+}
+
+h1 {
+    font-family: Impact;
+    color:red;
+    border: 1px black solid;
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.colderecha {
+    float: right;
+    margin-right: 21%;
+    width: 5%;
+    background-color: rgba(255,0,0,0.5);
+    border: 2px black solid;
+}
+
+
